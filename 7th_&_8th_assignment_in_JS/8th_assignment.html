@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>8th assignment in js</title>
+</head>
+<body>
+     <h1>7th Assignment In JS</h1>
+     <h3>Takes input From Users and log it in the Console</h3>
+     <hr>
+     <p><h2> The slice() Method</h2>
+          slice() extracts a part of a string and returns the extracted part in a new string.
+          The method takes 2 parameters: the start position, and the end position (end not included).
+          <br>
+           This example slices out a portion of a string from position 12 
+          <br>or, counting from the end.</p>
+     <script>
+   // slice string
+   var str = "LetsUpgrade,Javascript,ZeroToHero";
+var res = str.slice(12);
+console.log(res);
+var res2 = str.slice(-10);
+console.log(res2);
+     </script>
+     <hr>
+
+<p><h2>The substr() Method</h2>
+   <mark>substr() is similar to slice().</mark>
+     The difference is that the second parameter specifies the length of the extracted part.</p>
+
+     <script>
+          var substr = "Apple, Banana, Kiwi";
+            var subres = substr.substr(2,9);
+            console.log(subres);
+     </script>
+<hr>
+<p><h2>Converting to Upper and Lower Case</h2>
+     A string is converted to upper case with toUpperCase():
+<br>A string is converted to lower case with toLowerCase():</p>
+     <script>
+          // Lowercase to Uppercase
+          var lwr= "letsupgrade";      
+         var upp = lwr.toUpperCase();
+         console.log(upp);
+        //Uppercase to Lowercase
+         var upp = "JAVASCRIPT";      
+         var lwr = upp.toLowerCase();
+         console.log(lwr);
+     </script>
+     <hr>
+</body>
+</html>
